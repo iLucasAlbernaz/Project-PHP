@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #515355;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.dados-pessoais {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+    width: 100%; 
+    padding: 12px;
+    margin-bottom: 20px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+select:focus {
+    outline: none;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="5"><path fill="#555" d="M4 5L0 0h8z"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    background-size: 8px 5px;
+}
+
+.row {
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    margin-right: 25px; 
+}
+
+.column:last-child {
+    margin-right: 0px;
+}
+
+.limpar-btn {
+    padding: 15px 40px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.664);
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.5s;
+    outline: 0;
+}
+
+.limpar-btn:hover {
+    background-color: rgba(0, 0, 0, 0.864);
+    color: #ffffff;
+}
+
+.cadastrar-btn {
+    padding: 15px 20px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.664);
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.5s;
+    outline: 0;
+}
+
+.cadastrar-btn:hover {
+    background-color: rgba(0, 0, 0, 0.864);
+    color: #ffffff;
+}
+
+.div4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}

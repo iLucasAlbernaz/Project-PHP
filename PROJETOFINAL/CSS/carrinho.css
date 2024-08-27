@@ -1,0 +1,119 @@
+.tr1 {
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.th1,
+.td1 {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.664);
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.5s;
+    outline: 0;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.864);
+    color: #ffffff;
+}
+
+.message {
+    display: none;
+    color: green;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container2 {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    animation: fadeIn 1s ease;
+    margin-top: 60px;
+}
+
+.perfil {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.perfil th,
+.perfil td {
+    padding: 10px;
+    text-align: center;
+}
+
+.message {
+    display: none;
+    color: green;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.h22 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+    
+}
+
+.btn {
+    padding: 9.5px 18px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.664);
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.5s;
+    outline: 0;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.864);
+    color: #ffffff;
+
+}
+
+select {
+    width: 20%;
+    padding: 6px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    appearance: none;
+   
+    
+}
+
+select:focus {
+    border-color: #888;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}

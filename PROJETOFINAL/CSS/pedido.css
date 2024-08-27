@@ -1,0 +1,90 @@
+.container-pedido {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    animation: fadeIn 1s ease;
+    margin: 60px auto 0 auto;
+}
+
+.h2-pedido {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.table-pedido {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tr1 {
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.th1,
+.td1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.empty-pedido-message {
+    display: none;
+    color: green;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.664);
+    border: 1px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000000;
+    transition: 0.5s;
+    outline: 0;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.864);
+    color: #ffffff;
+}
+
+.data-horario {
+    font-size: 1em;
+    color: #000000;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-horario span {
+    font-weight: bold;
+}
+
+.data-horario::before,
+.data-horario::after {
+    content: "";
+    margin: 0 5px;
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.numero-pedido {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
